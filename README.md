@@ -48,3 +48,9 @@ The project will involve several key steps:
   - Preferred content lengths and genres that hold my focus.
   - Patterns of distraction or loss of interest.
   - Personal thresholds for watching sessions.
+ 
+## Final report
+
+- "The full analysis and findings are available on the [GitHub Pages website](https://emreeozkull.github.io/)."
+- "For the detailed code and technical steps, visit the [Jupyter Notebook](https://github.com/your-repo-path/netflix_dsa_210.ipynb)."
+
