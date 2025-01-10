@@ -52,5 +52,5 @@ The project will involve several key steps:
 ## Final report
 
 - "The full analysis and findings are available on the [GitHub Pages website](https://emreeozkull.github.io/)."
-- "For the detailed code and technical steps, visit the [Jupyter Notebook](https://github.com/your-repo-path/netflix_dsa_210.ipynb)."
+- "For the detailed code and technical steps, visit the [Jupyter Notebook](https://github.com/emreeozkull/attention-span-analysis/blob/e6941a8cbd5190dee30741202dc4ab2c8547974e/netflix_dsa_210.ipynb)."
 
