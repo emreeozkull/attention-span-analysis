@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Viewing Pattern Analysis</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#overview">Overview</a></li>
+                <li><a href="#data">Data Analysis</a></li>
+                <li><a href="#findings">Key Findings</a></li>
+                <li><a href="#visualizations">Visualizations</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="overview">
+            <h1>Analyzing Personal Attention Span Through Netflix Viewing Patterns</h1>
+            <p>This project explores how personal attention span has changed over time by analyzing Netflix viewing history. The analysis provides insights into engagement levels, content preferences, and factors that influence shifts in attention.</p>
+        </section>
+
+        <section id="data">
+            <h2>Data Analysis Techniques</h2>
+            <div class="analysis-grid">
+                <div class="analysis-card">
+                    <h3>Time-Based Analysis</h3>
+                    <p>Examining viewing patterns over different periods (daily, weekly, monthly)</p>
+                </div>
+                <div class="analysis-card">
+                    <h3>Session Analysis</h3>
+                    <p>Defining viewing sessions and analyzing duration/frequency</p>
+                </div>
+                <div class="analysis-card">
+                    <h3>Content Analysis</h3>
+                    <p>Categorizing watched content by genre and type</p>
+                </div>
+                <div class="analysis-card">
+                    <h3>Attention Metrics</h3>
+                    <p>Quantifying attention span through various metrics</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="visualizations">
+            <h2>Key Visualizations</h2>
+            <div class="viz-container">
+                <div class="viz-item">
+                    <h3>Daily Viewing Patterns</h3>
+                    <div class="plot" id="dailyPlot"></div>
+                </div>
+                <div class="viz-item">
+                    <h3>Monthly Trends</h3>
+                    <div class="plot" id="monthlyPlot"></div>
+                </div>
+                <div class="viz-item">
+                    <h3>Binge Watching Analysis</h3>
+                    <div class="plot" id="bingePlot"></div>
+                </div>
+                <div class="viz-item">
+                    <h3>Attention Span Metrics</h3>
+                    <div class="plot" id="metricsPlot"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="findings">
+            <h2>Key Findings</h2>
+            <div id="findings-container">
+                <!-- Findings will be populated via JavaScript -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Netflix Viewing Pattern Analysis Project - <span id="current-year"></span></p>
+    </footer>
+
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
